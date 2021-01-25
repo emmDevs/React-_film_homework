@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './FilmBox.css';
 import FilmList from '../components/FilmList';
 import UpcomingReleases from '../components/UpcomingReleases';
 
@@ -34,11 +35,13 @@ const FilmBox = () =>{
     )
 
     return(
-        <>
-        <h1>Upcoming Film Release for UK</h1>
+        <div className="filmbox_container">
+        <h1 className="filmbox_title">Upcoming Film Release for UK</h1>
+        <hr/>
         <FilmList films={films}></FilmList>
+        <hr/>
         <UpcomingReleases></UpcomingReleases>
-        </>
+        </div>
 
     );
 }
