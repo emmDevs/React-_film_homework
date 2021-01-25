@@ -1,8 +1,16 @@
-.filmbox_title{
+/* .filmbox_title{
     color: red;
-}
+    
+} */
 
 .filmbox_container{
+    margin-top: 36px;
+    margin-left: 30%;    
+    width: 30%;
     border: solid;
     border-color: red;
+}
+
+.filmbox_hr{
+    width: 90%;
 }

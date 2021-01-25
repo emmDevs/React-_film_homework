@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import './UpcomingRelease.css';
 
 const UpcomingReleases = () => {
 
@@ -9,12 +10,13 @@ const UpcomingReleases = () => {
     )
 
     return(
-
-        <a href={upcomingFilms}>
+        <div className="upcoming-releases_container">
+        <a className="upcoming-releases_link" href={upcomingFilms}>
             <h4>
                 View more upcoming releases >>
             </h4>
         </a>
+        </div>
 
     );
 }

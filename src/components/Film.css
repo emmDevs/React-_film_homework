@@ -1,3 +1,9 @@
 .film_links{
     text-decoration: none;
+    color: black;
+    text-align: left;
+}
+
+.film_text{
+    margin-left: 25px;
 }

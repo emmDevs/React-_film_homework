@@ -37,9 +37,9 @@ const FilmBox = () =>{
     return(
         <div className="filmbox_container">
         <h1 className="filmbox_title">Upcoming Film Release for UK</h1>
-        <hr/>
+        <hr className="filmbox_hr"/>
         <FilmList films={films}></FilmList>
-        <hr/>
+        <hr className="filmbox_hr"/>
         <UpcomingReleases></UpcomingReleases>
         </div>
 

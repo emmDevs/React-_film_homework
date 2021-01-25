@@ -6,7 +6,7 @@ const Film = ({url, children}) =>{
     return(
 
         <a className="film_links" href={url}>
-            <h4>{children}</h4>
+            <h4 className="film_text">{children}</h4>
         </a>
 
     );
